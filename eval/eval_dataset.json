@@ -1,0 +1,12 @@
+[
+  {"question": "What was Infosys total revenue in fiscal 2025?", "ground_truth": "₹162990 crore"},
+  {"question": "How many employees does Infosys have?", "ground_truth": "323578"},
+  {"question": "How many active clients does Infosys have?", "ground_truth": "1869"},
+  {"question": "What was Infosys net profit in FY2025?", "ground_truth": "₹26713 crore"},
+  {"question": "What is Infosys dividend per share?", "ground_truth": "₹43 per share"},
+  {"question": "What was Infosys operating margin in FY2025?", "ground_truth": "21.1%"},
+  {"question": "What was Infosys basic earnings per share in FY2025?", "ground_truth": "₹64.5"},
+  {"question": "What was Infosys large deal TCV in FY2025?", "ground_truth": "11.6 billion USD"},
+  {"question": "What was Infosys free cash flow in FY2025?", "ground_truth": "₹34549 crore"},
+  {"question": "In how many countries does Infosys operate?", "ground_truth": "59"}
+]

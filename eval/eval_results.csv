@@ -1,0 +1,99 @@
+question,ground_truth,answer,critic_verdict
+What was Infosys total revenue in fiscal 2025?,₹162990 crore," Infosys total revenue in fiscal 2025 was 1,41,374 crores.",pass
+How many employees does Infosys have?,323578,"Unfortunately, the given context does not provide any information regarding the total number of employees of Infosys. However, the context provides a detailed report about participation and representation of women in the Board of Directors and Key Management Personnel.",pass
+How many active clients does Infosys have?,1869,"Unfortunately, the provided context doesn't mention the exact number of active clients Infosys has. However, considering the context might be related to the business operations or acquisitions, it does mention the sale of services in various subsidiaries which might provide an approximation of client base but with an ambiguity in the exact definition of 'active clients' it is difficult to give a direct answer",pass
+What was Infosys net profit in FY2025?,₹26713 crore,"According to the data provided in the ""Infosys Integrated Annual Report 2024-25"", the consolidated profit or loss of Infosys in FY2025 is not directly available. However, we can get it by subtracting the consolidated profit before tax from the consolidated profit after tax. 
+
+But as per given data (Amount (In ₹ crore) as % age of consolidated profit or loss), Infosys share is 87.9% (87.9% * 1,66,590 = ₹ 146,522).",pass
+What is Infosys dividend per share?,₹43 per share,"According to Infosys Integrated Annual Report 2024-25:
+
+- The company paid an interim dividend of ₹21 per equity share and a final dividend of ₹22 per share for the year ended March 31, 2025, subject to shareholders' approval in the ensuing Annual General Meeting (AGM).
+
+However, based on the question, it seems like we are looking for a definitive answer. 
+
+If we go back to the dividend per share information:
+
+Particulars Year ended March 31,
+2025 2024
+Interim dividend for fiscal 2025  21.00 –
+Special dividend for fiscal 2024  8.00 –
+Final dividend for fiscal 2024  20.00 –
+Interim dividend for fiscal 2024 –  18.00 
+Final dividend for fiscal 2023 –  17. 50 
+
+So the Infosys dividend per share for the year ended March 31, 2025 is 
+21 (interim dividend for fiscal 2025) + 22 (the interim dividend is not final yet but we were looking for the year ending information, however final dividend is the key piece of information)
+However, since it is mentioned that the ₹22 (per share) has not been finalized but was recommended by the company. 
+
+Infosys dividend per share (recommended) for the year ended March 31, 2025 is 21 + 22 = 43",pass
+What was Infosys operating margin in FY2025?,21.1%,"To calculate the operating margin, we need the operating profit and the revenue from operations.
+
+From the given data:
+- Revenue from operations:
+  - Standalone: 1,36,592 crore
+  - Consolidated: 1,62,990 crore (assuming this is the correct number, it was written as 1,62,990 but then followed by 1,53,670 in the consolidated row of total income)
+  - Let's assume consolidated revenue is 1,62,990 crore.
+
+- Operating profit (excluding cost of sales and selling and marketing expenses):
+  
+We will use the consolidated numbers for accuracy: 
+
+- Operating profit = Revenue from operations - Cost of sales - Selling and marketing expenses
+  - Cost of sales = 1,13,347 crore
+  - Selling and marketing expenses = 6,973 crore
+- Operating profit = 1,62,990 - 1,13,347 - 6,973 = 42,670 crore
+
+Now, let's calculate the operating margin:
+Operating Margin = (Operating Profit / Revenue from Operations) * 100
+Operating Margin = (42,670 / 1,62,990) * 100
+Operating Margin ≈ 2.62%
+
+However, if we use the standalone numbers (assuming the cost of sales mentioned is incorrect as it's extremely low):
+- Revenue from operations (standalone) = 1,36,592 crore
+- Cost of sales (standalone) = 89,032 crore (assuming this is the correct number)
+- Selling and marketing expenses (standalone) = 6,282 crore
+- Operating profit (standalone) = 41,278 crore (1,36,592 - 89,032 - 6,282)
+- Operating Margin (standalone) = (41,278 / 1,36,592) * 100
+Operating Margin ≈ 3.02%",pass
+What was Infosys basic earnings per share in FY2025?,₹64.5,₹ 64.50.,pass
+What was Infosys large deal TCV in FY2025?,11.6 billion USD,"Unfortunately, the provided context does not mention Infosys large deal TCV (Total Contract Value) in FY2025. However, the context provides the revenue from the sale of shared services including facilities and personnel for FY2025. The total revenue is shown as:
+
+47 (EdgeVerve Systems Limited) + 10 (Panaya Ltd) + 5 (GuideVision, s.r.o) + 20 (Infy Consulting Company Limited) + 8 (Infosys Public Services, Inc.) + 5 (Infosys McCamish System LLC) + 9 (Infosys Singapore Pte. Ltd) + 7 (WongDoody, Inc) + 11 (Wongdoody GmbH) + 5 (Fluido Oy) + 1 (Fluido Denmark A/S) + 1 (Infosys Fluido UK, Ltd) + 3 (Outbox systems Inc. dba Simplus (US)) + 2 (Infosys Consulting AG) + 2 (Infy Consulting B.V.) + 2 (Infosys Consulting SAS) + 1 (Infosys Consulting GmbH) + 3 (Stater N.V.) + 69 (Stater Nederland B.V.) + 2,580 (Stater Nederland B.V) = 269.",pass
+What was Infosys free cash flow in FY2025?,₹34549 crore,"To determine Infosys free cash flow in FY 2025, we need to look at the definition of free cash flow in the context provided.
+
+The allocation policy for the financial year 2024 defines free cash flow as net cash provided by operating activities less capital expenditure as per the Consolidated Statement of Cash Flows prepared under IFRS.
+
+In the consolidated Statement of Cash Flows for FY 2025:
+
+- Net Cash Provided by Operating Activities =  (Profit for the year + Adjustments to reconcile net profit to net cash) 
+  = ₹ 25,568 (Profit for the year) + ₹ 2,619 (Depreciation and Amortization) + ₹ 9,873 (Income tax expense)
+  = ₹ 38,060
+
+- Capital Expenditure = ₹ 5,032.91 (this is an unextracted value from unextracted data. However we can find value at footnote of the 2024-25 report -  ₹ 8, 04 1)
+ 
+Therefore, the Infosys free cash flow in FY 2025 is = ₹ 38,060 - ₹ 5,032 (rounded for simplicity)
+= ₹ 33,028",pass
+In how many countries does Infosys operate?,59,"Based on the Infosys subsidiaries listed in the Integrated Annual Report 2024-25, the countries mentioned are:
+
+1. Australia
+2. Belgium
+3. Czech Republic
+4. Finland
+5. France
+6. Germany
+7. Hungary
+8. Malaysia
+9. Netherlands
+10. Philippines
+11. Poland
+12. Romania
+13. Singapore
+14. Sweden
+15. Switzerland
+16. United Kingdom
+17. United States
+
+However, since the exact number of countries is not explicitly given, it seems like the answer requires a manual count of those countries that have a 'Holdings' or 'Country' mentioned, hence: 
+
+- Countries in 'Holdings'  21
+There are 17 countries explicitly named",pass
