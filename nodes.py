@@ -13,10 +13,14 @@ from groq import Groq
 from state import AgentState
 
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "data", "chroma_db")
+
 vectorstore = Chroma(
     collection_name="tenk_corpus",
     embedding_function=embeddings,
-    persist_directory="data/chroma_db"
+    persist_directory=DB_PATH
 )
 
 client = None

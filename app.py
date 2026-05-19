@@ -1,6 +1,9 @@
 import os
 import streamlit as st
 os.environ["GROQ_API_KEY"] = st.secrets.get("GROQ_API_KEY", "")
+from ingest import ingest, DB_PATH
+if not os.path.exists(DB_PATH) or not os.listdir(DB_PATH):
+    ingest()
 import pandas as pd
 from graph import graph
 
