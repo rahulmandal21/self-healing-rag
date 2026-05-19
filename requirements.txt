@@ -2,13 +2,12 @@ streamlit
 langchain
 langchain-community
 langchain-huggingface
-langchain-chroma
+langchain-chroma==0.2.3
 langgraph
 groq
 python-dotenv
 sentence-transformers
-chromadb==0.4.24
+chromadb==0.5.23
 pandas
 pypdf
-protobuf==3.20.3
-langchain-chroma==0.2.3
+numpy<2.0
