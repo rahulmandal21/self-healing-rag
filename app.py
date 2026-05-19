@@ -1,4 +1,6 @@
+import os
 import streamlit as st
+os.environ["GROQ_API_KEY"] = st.secrets.get("GROQ_API_KEY", "")
 import pandas as pd
 from graph import graph
 

@@ -1,6 +1,3 @@
-import os
-import streamlit as st
-os.environ["GROQ_API_KEY"] = st.secrets.get("GROQ_API_KEY", "")
 import json
 import os
 import time
@@ -8,6 +5,7 @@ import random
 import hashlib
 from dotenv import load_dotenv
 load_dotenv()
+
 
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
