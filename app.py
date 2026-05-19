@@ -332,14 +332,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ── Session state ──────────────────────────────────────────────
+# ── Session state
 for k, v in [("result", None), ("last_query", ""), ("clear_count", 0), ("query_value", "")]:
     if k not in st.session_state:
         st.session_state[k] = v
 
-# ══════════════════════════════════════════════════════════════
+
 # SIDEBAR
-# ══════════════════════════════════════════════════════════════
+
 st.sidebar.markdown("""
 <div class="sb-head">
     <div class="sb-brand">
@@ -417,9 +417,9 @@ st.sidebar.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ══════════════════════════════════════════════════════════════
+
 # MAIN — HEADER
-# ══════════════════════════════════════════════════════════════
+
 st.markdown("""
 <div class="main-header">
     <div class="page-title">Self-Healing <span>RAG Pipeline</span></div>
@@ -435,7 +435,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ── Search row ─────────────────────────────────────────────────
+#  Search row 
 st.markdown('<div style="padding: 0 36px 4px;">', unsafe_allow_html=True)
 col1, col2, col3 = st.columns([7, 1.4, 0.9])
 with col1:
@@ -499,7 +499,7 @@ if st.session_state.show_more_chips:
                 st.session_state.clear_count += 1
                 st.rerun()
 
-# ── Run pipeline ───────────────────────────────────────────────
+# Run pipeline 
 if run and query:
     try:
         with st.spinner("Running pipeline..."):
@@ -523,7 +523,7 @@ if run and query:
 </div>
 """, unsafe_allow_html=True)
 
-# ── Results or empty state ─────────────────────────────────────
+#  Results or empty state
 st.markdown('<div class="content-wrap">', unsafe_allow_html=True)
 
 if st.session_state.result:
