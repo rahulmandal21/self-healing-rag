@@ -19,7 +19,13 @@ vectorstore = Chroma(
     persist_directory="data/chroma_db"
 )
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = None
+
+def get_client():
+    global client
+    if client is None:
+        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    return client
 
 _cache = {}
 
@@ -29,7 +35,7 @@ def _call_groq(prompt, max_tokens=300):
         return _cache[key]
     for attempt in range(3):
         try:
-            response = client.chat.completions.create(
+            response = get_client().chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=max_tokens
