@@ -14,3 +14,4 @@ transformers==4.40.0
 tokenizers==0.19.1
 pandas
 pypdf
+httpx==0.27.0
