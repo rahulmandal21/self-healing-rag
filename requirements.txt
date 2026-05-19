@@ -9,5 +9,6 @@ groq==0.9.0
 python-dotenv
 sentence-transformers==3.0.1
 chromadb==0.4.24
+torch==2.1.0
 pandas
 pypdf
