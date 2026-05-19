@@ -28,7 +28,7 @@ client = None
 def get_client():
     global client
     if client is None:
-        client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+        client = Groq(api_key=os.getenv("GROQ_API_KEY"), http_client=None)
     return client
 
 _cache = {}
